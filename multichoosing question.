@@ -1,0 +1,110 @@
+'''
+made by: Hiba Srouji
+multichoosing questions
+time to finish : 50 min
+'''
+
+def welcoming():
+  print('Hello everyone this is the ' + material + ' exam. ')
+ 
+ 
+x = 0
+def name_and_number():
+  name = input('please enter your name ')
+  num = input('please enter your number ')
+  print('your name: ' + name)
+  print('your number: '+ num)
+  
+def questions():
+  print(thequestion)
+  print(thefirst)
+  print(thesecond)
+  print(thethird)
+  
+ 
+name_and_number()
+ 
+material = 'Math'
+welcoming()
+ 
+ 
+ 
+ 
+##THE FIRST QUESTION...
+
+thequestion = 'The average of first 50 natural numbers is  '
+thefirst = 'A : 25'
+thesecond = 'B : 25.5'
+thethird = 'C : 25,25'
+
+questions()
+answer = input('please enter your answer ')
+if (answer == 'B'):
+  x = x + 1
+else: 
+  x = x - 1
+
+
+## THE SECOND QUESTION..
+thequestion = 'The number of 3-digit numbers divisible by 6, is '
+thefirst = 'A : 148'
+thesecond = 'B : 149'
+thethird = 'C : 150'
+
+questions()
+answer = input('please enter your answer ')
+if (answer == 'C'):
+  x = x + 1
+else: 
+  x = x - 1
+
+## THE THIERD QUESTION
+thequestion = 'What is 1004 divided by 2? '
+thefirst = 'A : 52'
+thesecond = 'B : 502'
+thethird = 'C : 520'
+
+questions()
+answer = input('please enter your answer ')
+if (answer == 'B'):
+  x = x + 1
+else: 
+  x = x - 1
+
+
+
+## THE FOURTH QUESTION...
+thequestion = 'Which of the following numbers gives 240 when added to its own square? '
+thefirst = 'A : 15'
+thesecond = 'B : 18'
+thethird = 'C : 20'
+
+questions()
+answer = input('please enter your answer ')
+if (answer == 'A'):
+  x = x + 1
+else: 
+  x = x - 1
+
+
+
+print('your mark is ' + str(x))
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
